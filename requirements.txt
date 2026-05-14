@@ -1,0 +1,6 @@
+streamlit>=1.28.0
+websocket-client>=1.6.0
+pydub>=0.25.1
+python-dotenv>=1.0.0
+# Python 3.13+ 已移除 stdlib audioop，pydub 依赖它；此包补回 audioop
+audioop-lts>=0.2.2; python_version >= "3.13"

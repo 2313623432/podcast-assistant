@@ -1,0 +1,42 @@
+{
+  "voiceXlsx": "D:\\播客\\声音id和api.xlsx",
+  "inputDir": "D:\\播客",
+  "outputDir": "D:\\播客\\podcast_output",
+  "tempDir": "D:\\播客\\podcast_temp",
+  "tts": {
+    "mode": "openspeech_v1",
+    "baseUrl": "https://openspeech.bytedance.com/api/v1/tts",
+    "authHeader": "Authorization",
+    "authScheme": "Bearer",
+    "apiKeyEnv": "BYTEDANCE_TTS_KEY",
+    "appId": "",
+    "userId": "podcast-gen",
+    "audio": {
+      "encoding": "mp3",
+      "sample_rate": 24000
+    },
+    "request": {
+      "text_type": "plain",
+      "operation": "query"
+    }
+  },
+  "audio": {
+    "ffmpegPath": "ffmpeg",
+    "ffprobePath": "ffprobe",
+    "targetSampleRate": 44100,
+    "targetChannels": 2,
+    "targetBitrateK": 192,
+    "lufsI": -16,
+    "pauseSecondsMin": 0.3,
+    "pauseSecondsMax": 0.8
+  },
+  "srt": {
+    "maxLineChars": 20
+  },
+  "generation": {
+    "modes": [
+      "single",
+      "dual"
+    ]
+  }
+}

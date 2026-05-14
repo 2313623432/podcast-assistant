@@ -1,0 +1,27 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+output/
+.streamlit/secrets.toml
+
+# Build artifacts
+build/
+dist/
+*.spec~
+
+# Bundled third-party binaries are added to release assets, not source commits.
+vendor/
+
+# Local generated podcast files and working outputs
+podcast_output/
+podcast_temp/
+*.mp3
+*.srt
+
+# Local source spreadsheets and installer downloads
+*.xlsx
+*.xls
+*.exe
+!docker-entrypoint.sh
