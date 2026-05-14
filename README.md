@@ -2,7 +2,7 @@
 
 播客助手是一个面向中文口播内容创作者的小工具：把长文案输入进去，自动调用火山引擎「豆包语音」生成 MP3，同时生成可用于剪映、视频号、抖音等剪辑流程的 SRT 字幕。
 
-如果你只想使用软件，不需要安装 Python、ffmpeg 或任何开发环境，直接到 GitHub Releases 下载 `播客助手-单文件.exe`。
+如果你只想使用软件，不需要安装 Python、ffmpeg 或任何开发环境，直接到 GitHub Releases 下载 `PodcastAssistant-Windows-Standalone.exe`。
 
 ## 它能做什么
 
@@ -25,7 +25,7 @@
 ## 快速使用
 
 1. 打开 GitHub Releases
-2. 下载 `播客助手-单文件.exe`
+2. 下载 `PodcastAssistant-Windows-Standalone.exe`
 3. 双击运行
 4. 浏览器会自动打开软件页面
 5. 在左侧输入火山引擎「豆包语音」的 App ID 和 Access Token

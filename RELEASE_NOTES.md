@@ -7,7 +7,7 @@
 在本 Release 的 Assets 中下载：
 
 ```text
-播客助手-单文件.exe
+PodcastAssistant-Windows-Standalone.exe
 ```
 
 下载后双击即可使用，不需要安装 Python，不需要安装 ffmpeg，也不需要保留额外文件夹。
@@ -31,7 +31,7 @@
 
 ## 使用方法
 
-1. 下载 `播客助手-单文件.exe`
+1. 下载 `PodcastAssistant-Windows-Standalone.exe`
 2. 双击运行
 3. 等待浏览器自动打开页面
 4. 在左侧栏输入火山引擎「豆包语音」App ID 和 Access Token
